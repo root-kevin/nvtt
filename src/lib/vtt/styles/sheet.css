@@ -1,0 +1,115 @@
+.sheet {
+    background: radial-gradient(circle at top, #181c25 0, #0b0f18 55%);
+    color: #f7f9fc;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.card {
+    background: #0d121e;
+    border-radius: 12px;
+    border: 1px solid #202839;
+    padding: 10px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.card-title {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #d1c184;
+    margin-bottom: 8px;
+}
+
+.summary-subtabs {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 6px;
+}
+
+.summary-subtabs button {
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: radial-gradient(circle at top, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.3));
+    color: #d7d2c6;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.summary-subtabs button.active {
+    background: linear-gradient(to bottom, #d8b874, #b98f4b);
+    color: #151108;
+    border-color: rgba(255, 255, 255, 0.65);
+    font-weight: 600;
+}
+
+.summary-skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
+}
+
+.skill-pill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #1f2533;
+    background: rgba(6, 8, 14, 0.7);
+    border-radius: 10px;
+    padding: 6px 8px;
+    color: #e8ecf5;
+}
+
+.skill-pill .left {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.skill-pill .name {
+    text-transform: capitalize;
+}
+
+.skill-pill .right {
+    font-weight: 700;
+    color: #f1e6c4;
+}
+
+.skill-icon {
+    width: 18px;
+    height: 18px;
+    color: #d1c184;
+}
+
+.sub-title {
+    font-size: 0.8rem;
+    color: #cfd5e3;
+    margin-top: 6px;
+    margin-bottom: 4px;
+}
+
+.entry {
+    background: #050915;
+    border-radius: 8px;
+    border: 1px solid #252c3c;
+    padding: 6px 8px;
+    color: #e8ecf5;
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+}
+
+.tag-line {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.78rem;
+    padding: 2px 0;
+}
+
+.label-small {
+    color: #c9d1e6;
+}
+
+.tag-value {
+    color: #97a4c2;
+    text-align: right;
+}

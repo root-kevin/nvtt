@@ -1,0 +1,64 @@
+body {
+    background: #111;
+    color: white;
+    margin: 0;
+}
+
+.player-page {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.player-tools {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    z-index: 300;
+    display: flex;
+    gap: 8px;
+    pointer-events: none;
+}
+
+.player-tool-btn {
+    pointer-events: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(12, 18, 30, 0.92);
+    color: #e9eef7;
+    font-size: 0.85rem;
+    cursor: pointer;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.35);
+    transition: background 120ms ease, border 120ms ease, transform 120ms ease;
+}
+
+.player-tool-btn:hover {
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateY(-1px);
+}
+
+.player-tool-btn.active {
+    background: linear-gradient(to bottom, #d8b874, #b98f4b);
+    border-color: rgba(255, 255, 255, 0.6);
+    color: #1c140a;
+    font-weight: 600;
+}
+
+/* Player view must match GM view PC tokens */
+.pc-token .token-img {
+    border-radius: 50%;
+    border: 3px solid #d6bf73;
+    box-sizing: border-box;
+    background: #111;
+    object-fit: cover;
+}
+
+/* Ensure token container doesn't override shape */
+.pc-token {
+    overflow: visible;
+}

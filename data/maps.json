@@ -1,0 +1,1725 @@
+{
+  "maps": [
+    {
+      "id": "936995be-ac70-40ca-8ac7-2c8e07dfdf74",
+      "fogSrc": "/fog/936995be-ac70-40ca-8ac7-2c8e07dfdf74.png",
+      "view": {
+        "pan": {
+          "x": -44.58080015532323,
+          "y": -1032.7167211522067
+        },
+        "zoom": 0.3649999999999993
+      },
+      "name": "Court of The Count",
+      "src": "/maps/uploads/1766027650964_Ravenloft_CotC_8k_Night_Grid_50x40_163PPI.jpg",
+      "location": "Ravenloft",
+      "gridSizePx": 163,
+      "width": 8150,
+      "height": 6520,
+      "lighting": {
+        "global": true
+      },
+      "naturalWidth": 8150,
+      "naturalHeight": 6520,
+      "active": true,
+      "walls": [
+        {
+          "id": "66daf8c2-6644-44ec-be44-00e54b0f8d69",
+          "c": [
+            3260,
+            3097,
+            5542,
+            3097
+          ],
+          "a": {
+            "x": 3260,
+            "y": 3097
+          },
+          "b": {
+            "x": 5542,
+            "y": 3097
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "5ab2a085-5f15-4191-94fb-9274d096d960",
+          "c": [
+            5542,
+            3097,
+            5542,
+            3260
+          ],
+          "a": {
+            "x": 5542,
+            "y": 3097
+          },
+          "b": {
+            "x": 5542,
+            "y": 3260
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "38029595-1b39-4438-899d-fd84ec041831",
+          "c": [
+            5542,
+            3749,
+            5542,
+            3586
+          ],
+          "a": {
+            "x": 5542,
+            "y": 3749
+          },
+          "b": {
+            "x": 5542,
+            "y": 3586
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "7f265ed8-b284-4268-8b66-18ac7801e8a3",
+          "c": [
+            3260,
+            3749,
+            3260,
+            3586
+          ],
+          "a": {
+            "x": 3260,
+            "y": 3749
+          },
+          "b": {
+            "x": 3260,
+            "y": 3586
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "9519dfa5-a121-4eb9-83c5-0780e6034961",
+          "c": [
+            3260,
+            3260,
+            3260,
+            3097
+          ],
+          "a": {
+            "x": 3260,
+            "y": 3260
+          },
+          "b": {
+            "x": 3260,
+            "y": 3097
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "c4b2d184-1425-4f37-b853-e80a9b402154",
+          "c": [
+            3260,
+            3260,
+            3260,
+            3423
+          ],
+          "a": {
+            "x": 3260,
+            "y": 3260
+          },
+          "b": {
+            "x": 3260,
+            "y": 3423
+          },
+          "type": "DOOR",
+          "kind": "door",
+          "move": "NONE",
+          "sight": "NONE",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": false,
+          "blocksVision": false,
+          "dir": 0,
+          "door": {
+            "state": "OPEN",
+            "openPct": 100,
+            "open": true,
+            "locked": false,
+            "hinge": "a",
+            "swing": "left",
+            "thicknessPx": 12,
+            "noSwing": false,
+            "hp": 10,
+            "ac": 15,
+            "hidden": false
+          }
+        },
+        {
+          "id": "9d66b521-b2dc-47a3-a11b-8eae0a471daa",
+          "c": [
+            5542,
+            3260,
+            5542,
+            3423
+          ],
+          "a": {
+            "x": 5542,
+            "y": 3260
+          },
+          "b": {
+            "x": 5542,
+            "y": 3423
+          },
+          "type": "DOOR",
+          "kind": "door",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0,
+          "door": {
+            "state": "CLOSED",
+            "openPct": 0,
+            "open": false,
+            "locked": false,
+            "hinge": "a",
+            "swing": 1,
+            "thicknessPx": 12,
+            "noSwing": false,
+            "hp": 10,
+            "ac": 15,
+            "hidden": false
+          }
+        },
+        {
+          "id": "6a660195-9036-42bd-9d6e-cc7f835c39be",
+          "c": [
+            5542,
+            3586,
+            5542,
+            3423
+          ],
+          "a": {
+            "x": 5542,
+            "y": 3586
+          },
+          "b": {
+            "x": 5542,
+            "y": 3423
+          },
+          "type": "DOOR",
+          "kind": "door",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0,
+          "door": {
+            "state": "CLOSED",
+            "openPct": 0,
+            "open": false,
+            "locked": false,
+            "hinge": "a",
+            "swing": "left",
+            "thicknessPx": 12,
+            "noSwing": false,
+            "hp": 10,
+            "ac": 15,
+            "hidden": false
+          }
+        },
+        {
+          "id": "04acf94f-e3c8-4c92-9e8a-d48a81999a5b",
+          "c": [
+            3260,
+            3749,
+            5542,
+            3749
+          ],
+          "a": {
+            "x": 3260,
+            "y": 3749
+          },
+          "b": {
+            "x": 5542,
+            "y": 3749
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "a8c1d6ce-5abf-4d69-bd25-044adcdf5665",
+          "c": [
+            3260,
+            3586,
+            3260,
+            3423
+          ],
+          "a": {
+            "x": 3260,
+            "y": 3586
+          },
+          "b": {
+            "x": 3260,
+            "y": 3423
+          },
+          "type": "DOOR",
+          "kind": "door",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0,
+          "door": {
+            "state": "CLOSED",
+            "openPct": 0,
+            "open": false,
+            "locked": false,
+            "hinge": "a",
+            "swing": 1,
+            "thicknessPx": 12,
+            "noSwing": false,
+            "hp": 10,
+            "ac": 15,
+            "hidden": false
+          }
+        },
+        {
+          "id": "1e6420e8-3996-419e-aa15-d6f05687df92",
+          "c": [
+            2934,
+            2445,
+            2934,
+            2771
+          ],
+          "a": {
+            "x": 2934,
+            "y": 2445
+          },
+          "b": {
+            "x": 2934,
+            "y": 2771
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "9491f79d-1ddf-4e39-90e7-1bd25afcb09c",
+          "c": [
+            3912,
+            4075,
+            2934,
+            4075
+          ],
+          "a": {
+            "x": 3912,
+            "y": 4075
+          },
+          "b": {
+            "x": 2934,
+            "y": 4075
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "35bd7a05-0911-4019-ae1d-c1e84706d9b6",
+          "c": [
+            3260,
+            3749,
+            3260,
+            4075
+          ],
+          "a": {
+            "x": 3260,
+            "y": 3749
+          },
+          "b": {
+            "x": 3260,
+            "y": 4075
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "928f06e5-777f-42f8-afd8-1f7d5e6e0c97",
+          "c": [
+            3912,
+            4401,
+            3912,
+            4075
+          ],
+          "a": {
+            "x": 3912,
+            "y": 4401
+          },
+          "b": {
+            "x": 3912,
+            "y": 4075
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "e10b5c42-b554-47a5-9b15-72c9b1265f43",
+          "c": [
+            3912,
+            4401,
+            4564,
+            4401
+          ],
+          "a": {
+            "x": 3912,
+            "y": 4401
+          },
+          "b": {
+            "x": 4564,
+            "y": 4401
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "d7d54974-7dc2-4429-b4b4-63a3575b3f18",
+          "c": [
+            4564,
+            4401,
+            4564,
+            4564
+          ],
+          "a": {
+            "x": 4564,
+            "y": 4401
+          },
+          "b": {
+            "x": 4564,
+            "y": 4564
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "a4233e76-423d-4507-922a-ab2f2c620a0d",
+          "c": [
+            4564,
+            4564,
+            4577.569506541792,
+            4668.187215740348
+          ],
+          "a": {
+            "x": 4564,
+            "y": 4564
+          },
+          "b": {
+            "x": 4577.569506541792,
+            "y": 4668.187215740348
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "556e5ba4-7989-4f8d-a186-9067d6e904fd",
+          "c": [
+            4577.569506541792,
+            4668.187215740348,
+            4577.569506541792,
+            4771.496201780807
+          ],
+          "a": {
+            "x": 4577.569506541792,
+            "y": 4668.187215740348
+          },
+          "b": {
+            "x": 4577.569506541792,
+            "y": 4771.496201780807
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "212d41bb-3602-4e79-9da5-bc4034c4795e",
+          "c": [
+            4577.569506541792,
+            4771.496201780807,
+            4560.427893213479,
+            4847.623659462
+          ],
+          "a": {
+            "x": 4577.569506541792,
+            "y": 4771.496201780807
+          },
+          "b": {
+            "x": 4560.427893213479,
+            "y": 4847.623659462
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "12dccb0b-ab48-4f4c-b0c1-188762f4bf76",
+          "c": [
+            4560.427893213479,
+            4847.623659462,
+            4522.066047392696,
+            4932.306186877744
+          ],
+          "a": {
+            "x": 4560.427893213479,
+            "y": 4847.623659462
+          },
+          "b": {
+            "x": 4522.066047392696,
+            "y": 4932.306186877744
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "8c071583-51b3-4333-ba5e-f790d8f4b53b",
+          "c": [
+            4522.066047392696,
+            4932.306186877744,
+            4453.646666745106,
+            5004.281489136879
+          ],
+          "a": {
+            "x": 4522.066047392696,
+            "y": 4932.306186877744
+          },
+          "b": {
+            "x": 4453.646666745106,
+            "y": 5004.281489136879
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "9d9bee94-140f-4d98-85fa-4ac9dfb491ef",
+          "c": [
+            4453.646666745106,
+            5004.281489136879,
+            4356.842849915287,
+            5053.520240130861
+          ],
+          "a": {
+            "x": 4453.646666745106,
+            "y": 5004.281489136879
+          },
+          "b": {
+            "x": 4356.842849915287,
+            "y": 5053.520240130861
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "e12d88e4-be08-40bd-90ea-d13a080e90c9",
+          "c": [
+            4356.842849915287,
+            5053.520240130861,
+            4239.425181193525,
+            5078.2440372185865
+          ],
+          "a": {
+            "x": 4356.842849915287,
+            "y": 5053.520240130861
+          },
+          "b": {
+            "x": 4239.425181193525,
+            "y": 5078.2440372185865
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "43dfc7e0-d39f-4491-83db-62fecc4e6291",
+          "c": [
+            4239.425181193525,
+            5078.2440372185865,
+            4124.967349868223,
+            5046.303825775017
+          ],
+          "a": {
+            "x": 4239.425181193525,
+            "y": 5078.2440372185865
+          },
+          "b": {
+            "x": 4124.967349868223,
+            "y": 5046.303825775017
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "c330d611-84c4-4e58-a38e-341c1ece914f",
+          "c": [
+            4124.967349868223,
+            5046.303825775017,
+            4037.2727727315514,
+            4991.156136399338
+          ],
+          "a": {
+            "x": 4124.967349868223,
+            "y": 5046.303825775017
+          },
+          "b": {
+            "x": 4037.2727727315514,
+            "y": 4991.156136399338
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "a169b5a0-a301-461c-bca5-3e5507872d22",
+          "c": [
+            4037.2727727315514,
+            4991.156136399338,
+            3974.7310040945035,
+            4923.782443620416
+          ],
+          "a": {
+            "x": 4037.2727727315514,
+            "y": 4991.156136399338
+          },
+          "b": {
+            "x": 3974.7310040945035,
+            "y": 4923.782443620416
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "f43a0fbf-19c5-47f7-96ec-785593449d16",
+          "c": [
+            3974.7310040945035,
+            4923.782443620416,
+            3922.501235410392,
+            4824.709150274606
+          ],
+          "a": {
+            "x": 3974.7310040945035,
+            "y": 4923.782443620416
+          },
+          "b": {
+            "x": 3922.501235410392,
+            "y": 4824.709150274606
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "4a9338f5-f2e0-43b8-a1f3-a0232c866e11",
+          "c": [
+            3922.501235410392,
+            4824.709150274606,
+            3914.040292027485,
+            4725.823962864784
+          ],
+          "a": {
+            "x": 3922.501235410392,
+            "y": 4824.709150274606
+          },
+          "b": {
+            "x": 3914.040292027485,
+            "y": 4725.823962864784
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "52844d1d-3f52-4311-9a67-27c087d913e0",
+          "c": [
+            3912,
+            5053,
+            3914.040292027485,
+            4725.823962864784
+          ],
+          "a": {
+            "x": 3912,
+            "y": 5053
+          },
+          "b": {
+            "x": 3914.040292027485,
+            "y": 4725.823962864784
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "db15ee7f-00f2-4dc8-94d3-d89b2bcc9434",
+          "c": [
+            3912,
+            5053,
+            2934,
+            5053
+          ],
+          "a": {
+            "x": 3912,
+            "y": 5053
+          },
+          "b": {
+            "x": 2934,
+            "y": 5053
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "c9881e25-ef78-403c-9d1b-1f31d37cddf0",
+          "c": [
+            4564,
+            4564,
+            4503.491946300829,
+            4506.435965600155
+          ],
+          "a": {
+            "x": 4564,
+            "y": 4564
+          },
+          "b": {
+            "x": 4503.491946300829,
+            "y": 4506.435965600155
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "25867ccb-b9b0-41b4-a942-6d37458aa52a",
+          "c": [
+            4503.491946300829,
+            4506.435965600155,
+            4442.173822242094,
+            4458.943996624727
+          ],
+          "a": {
+            "x": 4503.491946300829,
+            "y": 4506.435965600155
+          },
+          "b": {
+            "x": 4442.173822242094,
+            "y": 4458.943996624727
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "3276b091-20c6-458a-9c18-e61bb44f0489",
+          "c": [
+            4442.173822242094,
+            4458.943996624727,
+            4359.405149896461,
+            4402.457504797681
+          ],
+          "a": {
+            "x": 4442.173822242094,
+            "y": 4458.943996624727
+          },
+          "b": {
+            "x": 4359.405149896461,
+            "y": 4402.457504797681
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "d6d707d3-45e2-4c21-a888-34bf4d685a48",
+          "c": [
+            2934,
+            4075,
+            2934,
+            4564
+          ],
+          "a": {
+            "x": 2934,
+            "y": 4075
+          },
+          "b": {
+            "x": 2934,
+            "y": 4564
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "212d5dd3-d1e8-4a6f-bf28-d6d821fd1927",
+          "c": [
+            2934,
+            4727,
+            2934,
+            5053
+          ],
+          "a": {
+            "x": 2934,
+            "y": 4727
+          },
+          "b": {
+            "x": 2934,
+            "y": 5053
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "3b40c208-6b23-4a86-98ec-da145f56d423",
+          "c": [
+            2934,
+            4564,
+            2934,
+            4727
+          ],
+          "a": {
+            "x": 2934,
+            "y": 4564
+          },
+          "b": {
+            "x": 2934,
+            "y": 4727
+          },
+          "type": "DOOR",
+          "kind": "door",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0,
+          "door": {
+            "state": "CLOSED",
+            "openPct": 0,
+            "open": false,
+            "locked": false,
+            "hinge": "a",
+            "swing": 1,
+            "thicknessPx": 12,
+            "noSwing": false,
+            "hp": 10,
+            "ac": 15,
+            "hidden": false
+          }
+        },
+        {
+          "id": "7aa31ee1-21fc-4264-a884-b6ce15282775",
+          "c": [
+            2934,
+            4075,
+            2934,
+            3586
+          ],
+          "a": {
+            "x": 2934,
+            "y": 4075
+          },
+          "b": {
+            "x": 2934,
+            "y": 3586
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "912c401f-e031-40e1-b2dc-188e09d345eb",
+          "c": [
+            2934,
+            3260,
+            2934,
+            2771
+          ],
+          "a": {
+            "x": 2934,
+            "y": 3260
+          },
+          "b": {
+            "x": 2934,
+            "y": 2771
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "df6258cc-e62c-4bc3-b3d9-8f373609cf1e",
+          "c": [
+            2934,
+            2771,
+            3097,
+            2771
+          ],
+          "a": {
+            "x": 2934,
+            "y": 2771
+          },
+          "b": {
+            "x": 3097,
+            "y": 2771
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "549b2726-2bd7-49b7-be42-e7ba521fb6c3",
+          "c": [
+            3260,
+            2771,
+            3260,
+            3097
+          ],
+          "a": {
+            "x": 3260,
+            "y": 2771
+          },
+          "b": {
+            "x": 3260,
+            "y": 3097
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "5117c825-4014-4e7b-91e8-295db7dcbf45",
+          "c": [
+            2934,
+            3260,
+            2934,
+            3423
+          ],
+          "a": {
+            "x": 2934,
+            "y": 3260
+          },
+          "b": {
+            "x": 2934,
+            "y": 3423
+          },
+          "type": "DOOR",
+          "kind": "door",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0,
+          "door": {
+            "state": "CLOSED",
+            "openPct": 0,
+            "open": false,
+            "locked": false,
+            "hinge": "a",
+            "swing": 1,
+            "thicknessPx": 12,
+            "noSwing": false,
+            "hp": 10,
+            "ac": 15,
+            "hidden": false
+          }
+        },
+        {
+          "id": "d5beb59b-efd6-4772-ac9b-7eb5050e776f",
+          "c": [
+            2934,
+            3586,
+            2934,
+            3423
+          ],
+          "a": {
+            "x": 2934,
+            "y": 3586
+          },
+          "b": {
+            "x": 2934,
+            "y": 3423
+          },
+          "type": "DOOR",
+          "kind": "door",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0,
+          "door": {
+            "state": "CLOSED",
+            "openPct": 0,
+            "open": false,
+            "locked": false,
+            "hinge": "a",
+            "swing": 1,
+            "thicknessPx": 12,
+            "noSwing": false,
+            "hp": 10,
+            "ac": 15,
+            "hidden": false
+          }
+        },
+        {
+          "id": "1b9a35ae-4961-49a0-a69f-6045a5dbe07a",
+          "c": [
+            3097,
+            2771,
+            3260,
+            2771
+          ],
+          "a": {
+            "x": 3097,
+            "y": 2771
+          },
+          "b": {
+            "x": 3260,
+            "y": 2771
+          },
+          "type": "DOOR",
+          "kind": "door",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0,
+          "door": {
+            "state": "CLOSED",
+            "openPct": 0,
+            "open": false,
+            "locked": false,
+            "hinge": "a",
+            "swing": 1,
+            "thicknessPx": 12,
+            "noSwing": false,
+            "hp": 10,
+            "ac": 15,
+            "hidden": true
+          }
+        },
+        {
+          "id": "aa643275-6670-40e6-9c4b-4f5935fb2d9d",
+          "c": [
+            2934,
+            2445,
+            2934,
+            2282
+          ],
+          "a": {
+            "x": 2934,
+            "y": 2445
+          },
+          "b": {
+            "x": 2934,
+            "y": 2282
+          },
+          "type": "DOOR",
+          "kind": "door",
+          "move": "NONE",
+          "sight": "NONE",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": false,
+          "blocksVision": false,
+          "dir": 0,
+          "door": {
+            "state": "OPEN",
+            "openPct": 100,
+            "open": true,
+            "locked": false,
+            "hinge": "a",
+            "swing": 1,
+            "thicknessPx": 12,
+            "noSwing": false,
+            "hp": 10,
+            "ac": 15,
+            "hidden": false
+          }
+        },
+        {
+          "id": "392529c1-d681-4d86-bc79-8dd77e0a9933",
+          "c": [
+            2934,
+            1793,
+            2934,
+            2282
+          ],
+          "a": {
+            "x": 2934,
+            "y": 1793
+          },
+          "b": {
+            "x": 2934,
+            "y": 2282
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "b40d189c-f1c3-48fe-97b0-753226577b33",
+          "c": [
+            2934,
+            1793,
+            1956,
+            1793
+          ],
+          "a": {
+            "x": 2934,
+            "y": 1793
+          },
+          "b": {
+            "x": 1956,
+            "y": 1793
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "2d9d4d7f-d30d-4f29-90e8-52810a6982f1",
+          "c": [
+            1956,
+            1793,
+            1956,
+            2445
+          ],
+          "a": {
+            "x": 1956,
+            "y": 1793
+          },
+          "b": {
+            "x": 1956,
+            "y": 2445
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "fbb76f3b-38d4-48e4-96e4-ed12b11912a7",
+          "c": [
+            1956,
+            2445,
+            2934,
+            2445
+          ],
+          "a": {
+            "x": 1956,
+            "y": 2445
+          },
+          "b": {
+            "x": 2934,
+            "y": 2445
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "1574a388-e31a-40d3-9046-3433c131ceb1",
+          "c": [
+            2608,
+            3097,
+            2608,
+            2445
+          ],
+          "a": {
+            "x": 2608,
+            "y": 3097
+          },
+          "b": {
+            "x": 2608,
+            "y": 2445
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "c5e06bd9-aa27-4da2-8172-953f823a2791",
+          "c": [
+            2608,
+            3097,
+            1956,
+            3097
+          ],
+          "a": {
+            "x": 2608,
+            "y": 3097
+          },
+          "b": {
+            "x": 1956,
+            "y": 3097
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "cdcec871-b2db-48d4-939b-63bd47ac1735",
+          "c": [
+            1956,
+            3097,
+            1956,
+            2445
+          ],
+          "a": {
+            "x": 1956,
+            "y": 3097
+          },
+          "b": {
+            "x": 1956,
+            "y": 2445
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "b82795ab-fe61-4de1-a7cc-81d0648fe70e",
+          "c": [
+            1956,
+            2445,
+            1630,
+            2445
+          ],
+          "a": {
+            "x": 1956,
+            "y": 2445
+          },
+          "b": {
+            "x": 1630,
+            "y": 2445
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "e08a47f5-5fab-4eea-b68a-b21040422f1d",
+          "c": [
+            1630,
+            2445,
+            1630,
+            3097
+          ],
+          "a": {
+            "x": 1630,
+            "y": 2445
+          },
+          "b": {
+            "x": 1630,
+            "y": 3097
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "a8315d5b-dea4-42f8-a943-922d6e2275a8",
+          "c": [
+            1630,
+            3097,
+            1630,
+            3749
+          ],
+          "a": {
+            "x": 1630,
+            "y": 3097
+          },
+          "b": {
+            "x": 1630,
+            "y": 3749
+          },
+          "type": "WINDOW",
+          "kind": "window",
+          "move": "NORMAL",
+          "sight": "NONE",
+          "light": "NONE",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": false,
+          "dir": 0
+        },
+        {
+          "id": "d24c69b9-d567-4047-9ffb-dd29c350ab3a",
+          "c": [
+            1630,
+            3749,
+            1630,
+            5053
+          ],
+          "a": {
+            "x": 1630,
+            "y": 3749
+          },
+          "b": {
+            "x": 1630,
+            "y": 5053
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "9a2783c3-2ac2-4d37-8dd4-c5028dc7df30",
+          "c": [
+            1630,
+            5053,
+            1956,
+            5379
+          ],
+          "a": {
+            "x": 1630,
+            "y": 5053
+          },
+          "b": {
+            "x": 1956,
+            "y": 5379
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "873f23f8-7005-46fe-a750-065983dd41f0",
+          "c": [
+            1956,
+            5379,
+            2282,
+            5379
+          ],
+          "a": {
+            "x": 1956,
+            "y": 5379
+          },
+          "b": {
+            "x": 2282,
+            "y": 5379
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "d5d73650-a4c2-4b86-b8e2-0326d13f5011",
+          "c": [
+            2445,
+            5379,
+            2608,
+            5379
+          ],
+          "a": {
+            "x": 2445,
+            "y": 5379
+          },
+          "b": {
+            "x": 2608,
+            "y": 5379
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "795e639f-d49b-4c4c-86ed-5cc246e8d401",
+          "c": [
+            2608,
+            5379,
+            2934,
+            5053
+          ],
+          "a": {
+            "x": 2608,
+            "y": 5379
+          },
+          "b": {
+            "x": 2934,
+            "y": 5053
+          },
+          "type": "WALL",
+          "kind": "wall",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0
+        },
+        {
+          "id": "de4eaf55-ef3e-4969-b08c-397cf0c281ef",
+          "c": [
+            2445,
+            5379,
+            2282,
+            5379
+          ],
+          "a": {
+            "x": 2445,
+            "y": 5379
+          },
+          "b": {
+            "x": 2282,
+            "y": 5379
+          },
+          "type": "DOOR",
+          "kind": "door",
+          "move": "NORMAL",
+          "sight": "NORMAL",
+          "light": "NORMAL",
+          "sound": "NORMAL",
+          "blocksMovement": true,
+          "blocksVision": true,
+          "dir": 0,
+          "door": {
+            "state": "CLOSED",
+            "openPct": 0,
+            "open": false,
+            "locked": false,
+            "hinge": "a",
+            "swing": 1,
+            "thicknessPx": 12,
+            "noSwing": false,
+            "hp": 10,
+            "ac": 15,
+            "hidden": true
+          }
+        }
+      ],
+      "showPlayerVisionToGM": true,
+      "collisionDebug": true,
+      "interactionDebug": false,
+      "segmentedWalls": false,
+      "segmentLengthMode": "GRID",
+      "segmentLengthPx": 163
+    }
+  ]
+}
