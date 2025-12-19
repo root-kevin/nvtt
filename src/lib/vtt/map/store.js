@@ -163,26 +163,29 @@ export async function loadMaps() {
         const fixed = list.map(m => ({
     ...m,
     lighting: normalizeLighting(m),
-
-            width: m.width ?? 0,
-            height: m.height ?? 0,
-            naturalWidth: m.naturalWidth ?? m.width ?? 0,
-            naturalHeight: m.naturalHeight ?? m.height ?? 0,
-            showPlayerVisionToGM: m.showPlayerVisionToGM ?? true,
-            view: {
-                pan: {
-                    x: m.view?.pan?.x ?? 0,
-                    y: m.view?.pan?.y ?? 0
-                },
-                zoom: Number.isFinite(m.view?.zoom) ? m.view.zoom : 1
-            },
-            segmentedWalls: !!m.segmentedWalls,
-            segmentLengthMode: (m.segmentLengthMode || "GRID").toUpperCase() === "FIXED_PX" ? "FIXED_PX" : "GRID",
-            segmentLengthPx: Number.isFinite(m.segmentLengthPx) ? m.segmentLengthPx : m.gridSizePx,
-
-            // REMOVE fogPng forever — replaced by fogSrc
-            fogSrc: m.fogSrc ?? `/fog/${m.id}.png`
-        }));
+    width: m.width ?? 0,
+    height: m.height ?? 0,
+    naturalWidth: m.naturalWidth ?? m.width ?? 0,
+    naturalHeight: m.naturalHeight ?? m.height ?? 0,
+    showPlayerVisionToGM: m.showPlayerVisionToGM ?? true,
+    view: {
+        pan: {
+            x: m.view?.pan?.x ?? 0,
+            y: m.view?.pan?.y ?? 0
+        },
+        zoom: Number.isFinite(m.view?.zoom) ? m.view.zoom : 1
+    },
+    segmentedWalls: !!m.segmentedWalls,
+    segmentLengthMode: (m.segmentLengthMode || "GRID").toUpperCase() === "FIXED_PX" ? "FIXED_PX" : "GRID",
+    segmentLengthPx: Number.isFinite(m.segmentLengthPx) ? m.segmentLengthPx : m.gridSizePx,
+    fogSrc: m.fogSrc ?? `/fog/${m.id}.png`,
+    
+    // ADD THIS: Normalize walls with height defaults
+    walls: (m.walls || []).map(w => ({
+        ...w,
+        height: w.height ?? { bottom: 0, top: 10 }  // Default wall height: 0-10 feet
+    }))
+}));
 
         maps.set(fixed);
 

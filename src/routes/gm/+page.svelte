@@ -860,6 +860,10 @@ onDestroy(() => {
     on:setHinge={setDoorHinge}
     on:setSwing={setDoorSwing}
     on:toggleNoSwing={toggleDoorNoSwing}
+    on:updateWall={(e) => {
+      const { wallPatch } = e.detail;
+      updateDoor(menuDoor.id, null, wallPatch);
+    }}
   />
 {/if}
 

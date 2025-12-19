@@ -9,6 +9,16 @@
 
   const dispatch = createEventDispatcher();
 
+  function updateHeight() {
+  dispatch("updateHeight", {
+    door,
+    height: {
+      bottom: door.height?.bottom ?? 0,
+      top: door.height?.top ?? 10
+    }
+  });
+}
+
   const isVertical =
     Math.abs(door.a.x - door.b.x) < Math.abs(door.a.y - door.b.y);
 
@@ -16,7 +26,8 @@
 $: openPct =
   door?.door?.openPct ??
   (resolveDoorState(door?.door) === "OPEN" ? 100 : 0);
-
+$: heightBottom = door?.height?.bottom ?? 0;
+$: heightTop = door?.height?.top ?? 10;
   function close() {
     dispatch("close");
   }
@@ -173,7 +184,31 @@ function toggleOpen() {
       {/each}
     </select>
   </div>
+  <div class="divider"></div>
 
+  <!-- HEIGHT SECTION -->
+  <div class="section">
+    <label class="lbl">Height (feet)</label>
+    <div class="dual-input">
+      <input
+        type="number"
+        bind:value={heightBottom}
+        min="0"
+        step="5"
+        on:change={updateHeight}
+        placeholder="Bottom"
+      />
+      <span class="to">to</span>
+      <input
+        type="number"
+        bind:value={heightTop}
+        min="0"
+        step="5"
+        on:change={updateHeight}
+        placeholder="Top"
+      />
+    </div>
+  </div>
   <!-- STATS -->
   <div class="stats">
     <div><strong>AC</strong> {door.door.ac}</div>
@@ -297,5 +332,25 @@ select, button:not(.primary) {
   justify-content: space-between;
   font-size: 11px;
   opacity: 0.85;
+}
+.dual-input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dual-input input {
+  flex: 1;
+  padding: 6px;
+  background: #202a3d;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 6px;
+  color: #e8dcc2;
+  text-align: center;
+}
+
+.to {
+  font-size: 12px;
+  opacity: 0.7;
 }
 </style>

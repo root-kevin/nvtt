@@ -198,6 +198,7 @@ export function buildWallDoc({ start, end, presetKey = "NORMAL", base = {} }) {
     blocksMovement: preset.move !== "NONE",
     blocksVision: preset.sight !== "NONE",
     dir: base.dir ?? 0,
-    flags: preset.flags || base.flags
-  };
+    flags: preset.flags || base.flags,
+    height: base.height ?? { bottom: 0, top: 10 }
+};
 }
